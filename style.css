@@ -1,0 +1,73 @@
+.heading {
+    width: 100%;
+    background-color: #ffebeb;
+    border-radius: 30px;
+}
+.heading h3{
+    font-size: 30px;
+    border-radius: 30px;
+}
+.heading button{
+    border: 3px rgb(0, 0, 0);
+    background-color: #ddffff;
+    border-radius: 30px;
+}
+#img{
+    width: 100%;
+}
+#start{
+    font-size: 20px;
+    border: 3px black;
+    background-color: #ffebeb;
+    border-radius: 30px;
+}
+#status,#restart{
+    font-size: 20px;
+    border: 3px black;
+    background-color: #ddffff;
+    border-radius: 30px;
+}
+.modal-dialog{
+    width:90%;
+}
+#myModal{
+    font-style: italic;
+    color: white;
+}
+
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
+}
+h4
+{
+   background-color:#ffebeb;
+   color:rgb(0, 0, 0);
+   line-height: 2;
+   border-radius: 30px;
+}
+.copy_right_footer{
+background-color:#ffebeb ;
+position: fixed;
+bottom: 0;
+width: 100%;
+text-align: center;
+width: 100%;
+line-height: 2;
+border-radius: 30px;
+}
+
+canvas{
+    animation-name: colour;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes colour{
+    from{box-shadow: 1px 1px 40px rgb(148, 196, 238);}
+    to{box-shadow: 1px 1px 40px rgb(198, 161, 223);}
+}
